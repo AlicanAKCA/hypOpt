@@ -25,6 +25,9 @@ In the context of reinforcement learning, Q-values that must be maximized repres
 </a>
 </div>
 
+
+
+
 <p>● s is the current state <br>
 
 <p>● a is the action taken,<br>
@@ -51,11 +54,27 @@ repeat the following:
     1. Sample a new position y from the hypersphere of a given radius surrounding the current
     position x (see e.g. Marsaglia's technique for sampling a hypersphere.)
     2. If f(y) < f(x) then move to the new position by setting x = y
-   
-## To-Do List
-- [ ] Colab Tutorial
-- [ ] Adding reqiurements.txt (has been specifying the versions of the libraries.
-- [x] Add Main Script
-- [ ] Add Article and Presentations
-- [ ] Inferences and Evalutations
-- [ ] Videos
+
+
+You can access the Tutorial and all inferences below.
+
+<a name="logo"/>
+<div align="center">
+<a href="https://colab.research.google.com/drive/11AM-_-yduAoIiw_wqqQ9jMgnTw4a2sJY?usp=sharing" target="_blank">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="" width="170" height="30"></img>
+</a>
+</div>
+
+<a name="logo"/>
+<div align="center">
+<a href="https://drive.google.com/file/d/1HhJZrQsWBLVTelCYu_RCwY07xX1MTTRT/view?usp=sharing" target="_blank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/1147px-Google_Drive_icon_%282020%29.svg.png" alt="" width="30" height="30"></img>
+</a>
+</div>
+
+
+# References
+
+[1] Neuronlike Adaptive Elements That Can Solve Difficult Learning Control Problems ANDREW G.
+BARTO, Member, IEEE, Richard S. Sutton, and Charles w. Anderson (0018-9472/83/0900-083401.00 01983
+IEEE)
